@@ -67,7 +67,7 @@ img {
 }
 
 .button:is(:hover, :focus) {
-  background: rgba(0, 0, 0, 0.8);;
+  background: rgba(0, 0, 0, 0.8);
   border: #ece1ba 1px solid;
   color: white;
 }
