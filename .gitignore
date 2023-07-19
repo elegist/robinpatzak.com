@@ -1,0 +1,18 @@
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore sensitive information
+config.js
+secrets/
+.npmrc
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore macOS metadata files
+.DS_Store
