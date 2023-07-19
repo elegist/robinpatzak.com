@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/font/Montserrat-VF.woff2') format('woff2');
+}
+
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
 }
 
