@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url('../../assets/font/Montserrat-VF.woff2') format('woff2');
+  font-family: "Montserrat";
+  src: url("../../assets/font/Montserrat-VF.woff2") format("woff2");
 }
 
 html {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 
@@ -38,4 +38,19 @@ ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+main {
+  height: 100vh;
+}
+
+.section {
+  min-height: 90%;
+}
+
+.section-hero {
+  background-image: url("../../assets/img/hero-wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
