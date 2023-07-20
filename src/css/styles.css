@@ -1,8 +1,10 @@
 :root {
+  --color-background: rgba(255, 255, 255, 1);
+
   --border-radius-normal: 0.5em;
   --animation-duration: 0.25s;
 
-  --font-size-400: 1rem
+  --font-size-400: 1rem;
 }
 
 @font-face {
@@ -43,6 +45,10 @@ a {
   text-decoration: none;
 }
 
+i {
+  font-size: 4rem;
+}
+
 ol,
 ul {
   list-style: none;
@@ -81,13 +87,18 @@ main {
 }
 
 .hero-section {
-  background-image: url("../../assets/img/hero-wallpaper.jpg");
+  background-image: -webkit-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0),
+      var(--color-background)
+    ),
+    url("../../assets/img/hero-wallpaper.jpg");
   background-size: cover;
   background-position: center;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -100,4 +111,8 @@ main {
 
 .hero-section > .hero-content > * {
   margin: 0.5em;
+}
+
+.hero-section > .hero-button {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
