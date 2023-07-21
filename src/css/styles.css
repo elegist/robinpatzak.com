@@ -1,5 +1,5 @@
 :root {
-  --color-background: rgba(255, 255, 255, 1);
+  --color-background: #85868a;
 
   --border-radius-normal: 0.5em;
   --animation-duration: 0.25s;
@@ -16,6 +16,7 @@ html {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   font-size: var(--font-size-400);
+  background: var(--color-background);
 }
 
 *,
