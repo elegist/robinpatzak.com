@@ -154,6 +154,12 @@ main {
   max-width: 15em;
   margin-inline: auto;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: box-shadow 0.5s;
+}
+
+.project-container:is(:hover, :focus) {
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
 }
 
 .project-container > * {
