@@ -5,6 +5,7 @@
   --animation-duration: 0.25s;
 
   --font-size-400: 1rem;
+  --font-size-200: 0.8rem;
 }
 
 @font-face {
@@ -146,11 +147,33 @@ main {
 }
 
 .project-container {
-  background: #ec4f54;
-  padding: 2em;
+  background: #fff;
+  padding: 0.5em;
   border-radius: var(--border-radius-normal);
   max-width: 15em;
   margin-inline: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.project-container > * {
+  margin-block: 0.5em;
+}
+
+.project-container > .project-title {
+  font-weight: bold;
+}
+
+.project-container > .project-category {
+  font-size: var(--font-size-200);
+  background: #ec4f54;
+  width: fit-content;
+  padding: 0.5em;
+  border-radius: var(--border-radius-normal);
+  box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+}
+
+.project-container > .project-description {
+  color: #6e6e6e;
 }
 
 @media screen and (min-width: 576px) {
