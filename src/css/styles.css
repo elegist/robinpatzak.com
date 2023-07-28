@@ -149,6 +149,7 @@ main {
 .project-container {
   background: #fff;
   padding: 0.5em;
+  margin: 1em;
   border-radius: var(--border-radius-normal);
   max-width: 15em;
   margin-inline: auto;

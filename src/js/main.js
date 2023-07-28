@@ -43,3 +43,44 @@ document.addEventListener("DOMContentLoaded", () => {
       blinkingCursorElement.style.opacity === "0" ? "1" : "0";
   }, blinkingDuration);
 });
+
+let projects = [];
+
+await fetch("../data/projects.json")
+  .then((response) => response.json())
+  .then((json) => {
+    json.forEach((project) => {
+      projects.push(project);
+    });
+  });
+
+const projectsSectionElement = document.getElementById("project-section");
+// const p = document.createElement("p");
+// p.innerHTML = "test";
+// projectsSectionElement.append(p);
+
+projects.forEach((project) => {
+  const projectContainerElement = document.createElement("div");
+  projectContainerElement.className = "project-container";
+  projectsSectionElement.append(projectContainerElement);
+
+  const projectImageElement = document.createElement("img");
+  projectImageElement.className = "project-image";
+  projectImageElement.src = project.projectImage;
+  projectContainerElement.append(projectImageElement);
+
+  const projectTitleElement = document.createElement("h3");
+  projectTitleElement.className = "project-title";
+  projectTitleElement.innerHTML = project.projectTitle;
+  projectContainerElement.append(projectTitleElement);
+
+  const projectCategoryElement = document.createElement("p");
+  projectCategoryElement.className = "project-category";
+  projectCategoryElement.innerHTML = project.projectCategory;
+  projectContainerElement.append(projectCategoryElement);
+
+  const projectDescriptionElement = document.createElement("p");
+  projectDescriptionElement.className = "project-description";
+  projectDescriptionElement.innerHTML = project.projectDescription;
+  projectContainerElement.append(projectDescriptionElement);
+});
