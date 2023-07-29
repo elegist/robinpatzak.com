@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 let projects = [];
 
-await fetch("../data/projects.json")
+await fetch("src/data/projects.json")
   .then((response) => response.json())
   .then((json) => {
     json.forEach((project) => {
@@ -55,9 +55,6 @@ await fetch("../data/projects.json")
   });
 
 const projectsSectionElement = document.getElementById("project-section");
-// const p = document.createElement("p");
-// p.innerHTML = "test";
-// projectsSectionElement.append(p);
 
 projects.forEach((project) => {
   const projectContainerElement = document.createElement("a");
