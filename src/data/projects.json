@@ -20,7 +20,7 @@
     "projectImage": "../../assets/img/project-guitar-configurator.png",
     "projectTitle": "Guitar Configurator",
     "projectCategory": "Web Development",
-    "projectDescription": "An eCommerce website, where you can configure and 'order' your dream guitar. It is not a real webshop and no money transactions will be made.",
+    "projectDescription": "An eCommerce website where you can configure and 'order' your dream guitar. It is not a real webshop and no money transactions will be made.",
     "projectTechnologies": [
       "HTML",
       "CSS",
