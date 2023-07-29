@@ -101,5 +101,7 @@ projects.forEach((project) => {
   projectContainerElement.append(projectTechnologiesElement);
 });
 
+const year = new Date().getFullYear();
+
 const yearElement = document.getElementById("year");
-yearElement.innerHTML = new Date().getFullYear();
+yearElement.innerHTML = year;
