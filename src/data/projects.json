@@ -45,7 +45,7 @@
     "projectImage": "../../assets/img/project-sky-jumper.png",
     "projectTitle": "Sky Jumper",
     "projectCategory": "Game Development",
-    "projectDescription": "Developed as a challgenge in only 31 days. A 3D Jump and Run consisting of one playable level where you have to jump, dash and wall-run to the goal, while trying to collect all the feathers on your way.",
+    "projectDescription": "Developed as a challenge in only 31 days. A 3D Jump and Run consisting of one playable level where you have to jump, dash and wall-run to the goal, while trying to collect all the feathers on your way.",
     "projectTechnologies": ["Godot", "GDScript", "Blender"],
     "link": "https://the-elegist.itch.io/sky-jumper"
   }
