@@ -1,5 +1,6 @@
 :root {
   --color-background: #efefef;
+  --color-nav: #555555;
 
   --border-radius-normal: 0.5em;
   --animation-duration: 0.25s;
@@ -96,14 +97,20 @@ img {
   box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
 }
 
+.logo {
+  cursor: default;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0.4em;
   position: absolute;
   width: 100%;
-  background: #6e6e6e;
+  background: var(--color-nav);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
 }
 
 .mobile-toggle {
@@ -226,13 +233,13 @@ img {
 }
 
 .project-container > .project-technologies > .project-technology {
-  background: #6e6e6e;
+  background: var(--color-nav);
   color: white;
 }
 
 .footer {
   margin-top: 2.5em;
-  background: #6e6e6e;
+  background: var(--color-nav);
   color: white;
   text-align: center;
   padding-block: 1em;
@@ -322,6 +329,7 @@ img {
   }
 
   .desktop-nav > ul > li > a {
+    color: white;
     font-size: 1.5rem;
   }
 
@@ -353,10 +361,6 @@ img {
 @supports (backdrop-filter: blur(1rem)) {
   .header {
     background: #6e6e6e;
-  }
-
-  .mobile-toggle {
-    color: black;
   }
 
   .nav {
