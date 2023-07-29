@@ -60,8 +60,10 @@ const projectsSectionElement = document.getElementById("project-section");
 // projectsSectionElement.append(p);
 
 projects.forEach((project) => {
-  const projectContainerElement = document.createElement("div");
+  const projectContainerElement = document.createElement("a");
   projectContainerElement.className = "project-container";
+  projectContainerElement.href = project.link;
+  projectContainerElement.target = "_blank";
   projectsSectionElement.append(projectContainerElement);
 
   const projectImageElement = document.createElement("img");

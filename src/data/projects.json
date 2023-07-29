@@ -5,7 +5,15 @@
     "projectTitle": "Dijkstra Story",
     "projectCategory": "Web Development",
     "projectDescription": "Informative website about the dijkstra path finding algorithm. It will explain the algorithm step by step, as well as giving general information about it. Additionally there is a playful app implemented, that generates a story based on the algorithms path.",
-    "projectTechnologies": ["HTML", "CSS", "Bootstrap", "Javascript", "jquery", "D3.js"]
+    "projectTechnologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Javascript",
+      "jquery",
+      "D3.js"
+    ],
+    "link": "https://dijkstra-story.robinpatzak.com"
   },
   {
     "id": 1,
@@ -13,7 +21,15 @@
     "projectTitle": "Guitar Configurator",
     "projectCategory": "Web Development",
     "projectDescription": "An eCommerce website, where you can configure and 'order' your dream guitar. It is not a real webshop and no money transactions will be made.",
-    "projectTechnologies": ["HTML", "CSS", "Bootstrap", "Python", "Django", "MariaDB"]
+    "projectTechnologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Python",
+      "Django",
+      "MariaDB"
+    ],
+    "link": "https://guitar-configurator.robinpatzak.com"
   },
   {
     "id": 2,
@@ -21,7 +37,8 @@
     "projectTitle": "Ancient Pyramid",
     "projectCategory": "Game Development",
     "projectDescription": "Developed as a study project, this is an attempt at a top down 3D Roguelite Game. You control a character crawling through an ancient pyramid, trying to find the exit, while encountering enemies on your way.",
-    "projectTechnologies": ["Unity", "C#", "Autodesk Maya"]
+    "projectTechnologies": ["Unity", "C#", "Autodesk Maya"],
+    "link": "https://the-elegist.itch.io/the-ancient-pyramid"
   },
   {
     "id": 3,
@@ -29,6 +46,7 @@
     "projectTitle": "Sky Jumper",
     "projectCategory": "Game Development",
     "projectDescription": "Developed as a challgenge in only 31 days. A 3D Jump and Run consisting of one playable level where you have to jump, dash and wall-run to the goal, while trying to collect all the feathers on your way.",
-    "projectTechnologies": ["Godot", "GDScript", "Blender"]
+    "projectTechnologies": ["Godot", "GDScript", "Blender"],
+    "link": "https://the-elegist.itch.io/sky-jumper"
   }
 ]
