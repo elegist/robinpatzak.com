@@ -213,10 +213,12 @@ img {
 
 .project-container > .project-description {
   color: #6e6e6e;
+  line-height: 1.6em;
 }
 
 .project-container > .project-technologies {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.4em;
 }
 

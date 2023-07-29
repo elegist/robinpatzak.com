@@ -1,42 +1,34 @@
 [
   {
     "id": 0,
-    "projectImage": "https://via.placeholder.com/800x600",
-    "projectTitle": "Test Title",
-    "projectCategory": "Webdev",
-    "projectDescription": "This is a test description 1 fetched from json",
-    "projectTechnologies": ["Tech1", "Tech2"]
+    "projectImage": "../../assets/img/project-dijkstra-story.png",
+    "projectTitle": "Dijkstra Story",
+    "projectCategory": "Web Development",
+    "projectDescription": "Informative website about the dijkstra path finding algorithm. It will explain the algorithm step by step, as well as giving general information about it. Additionally there is a playful app implemented, that generates a story based on the algorithms path.",
+    "projectTechnologies": ["HTML", "CSS", "Bootstrap", "Javascript", "jquery", "D3.js"]
   },
   {
     "id": 1,
-    "projectImage": "https://via.placeholder.com/800x600",
-    "projectTitle": "Test Title",
-    "projectCategory": "Gamedev",
-    "projectDescription": "This is a test description 2 fetched from json",
-    "projectTechnologies": ["Tech1", "Tech2"]
+    "projectImage": "../../assets/img/project-guitar-configurator.png",
+    "projectTitle": "Guitar Configurator",
+    "projectCategory": "Web Development",
+    "projectDescription": "An eCommerce website, where you can configure and 'order' your dream guitar. It is not a real webshop and no money transactions will be made.",
+    "projectTechnologies": ["HTML", "CSS", "Bootstrap", "Python", "Django", "MariaDB"]
   },
   {
     "id": 2,
-    "projectImage": "https://via.placeholder.com/800x600",
-    "projectTitle": "Test Title",
-    "projectCategory": "fhgf",
-    "projectDescription": "This is a test description 3 fetched from json",
-    "projectTechnologies": ["Tech1", "Tech2"]
+    "projectImage": "../../assets/img/project-ancient-pyramid.png",
+    "projectTitle": "Ancient Pyramid",
+    "projectCategory": "Game Development",
+    "projectDescription": "Developed as a study project, this is an attempt at a top down 3D Roguelite Game. You control a character crawling through an ancient pyramid, trying to find the exit, while encountering enemies on your way.",
+    "projectTechnologies": ["Unity", "C#", "Autodesk Maya"]
   },
   {
     "id": 3,
-    "projectImage": "https://via.placeholder.com/800x600",
-    "projectTitle": "Test Title",
-    "projectCategory": "frsae",
-    "projectDescription": "This is a test description 4 fetched from json",
-    "projectTechnologies": ["Tech1", "Tech2"]
-  },
-  {
-    "id": 4,
-    "projectImage": "https://via.placeholder.com/800x600",
-    "projectTitle": "Test Title",
-    "projectCategory": "test",
-    "projectDescription": "This is a test description 5 fetched from json",
-    "projectTechnologies": ["Tech1", "Tech2"]
+    "projectImage": "../../assets/img/project-sky-jumper.png",
+    "projectTitle": "Sky Jumper",
+    "projectCategory": "Game Development",
+    "projectDescription": "Developed as a challgenge in only 31 days. A 3D Jump and Run consisting of one playable level where you have to jump, dash and wall-run to the goal, while trying to collect all the feathers on your way.",
+    "projectTechnologies": ["Godot", "GDScript", "Blender"]
   }
 ]
