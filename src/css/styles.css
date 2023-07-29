@@ -63,6 +63,15 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: 0;
+  background: transparent;
+}
+
+button:is(:hover, :focus) {
+  cursor: pointer;
+}
+
 i {
   font-size: 4rem;
 }
@@ -77,31 +86,56 @@ img {
   height: auto;
 }
 
-.button {
-  display: inline-block;
-  font-weight: bold;
-  background: #ece1ba;
-  margin: 1em;
-  padding: 1em;
-  border-radius: var(--border-radius-normal);
-  border: transparent 1px solid;
-  transition: background var(--animation-duration),
-    border var(--animation-duration), color var(--animation-duration);
-  transition-timing-function: ease-in-out;
-}
-
-.button:is(:hover, :focus) {
-  background: rgba(0, 0, 0, 0.8);
-  border: #ece1ba 1px solid;
-  color: white;
-}
-
 .badge {
   font-size: var(--font-size-200);
   width: fit-content;
   padding: 0.5em;
   border-radius: var(--border-radius-normal);
   box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4em;
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mobile-toggle {
+  color: white;
+  z-index: 9999;
+}
+
+.nav {
+  transform: translateX(100%);
+  position: fixed;
+  inset: 0;
+  background: hsl(0 0% 0% / 0.95);
+  padding: min(30vh, 10rem) 2em;
+  transition: transform var(--animation-duration) ease-out;
+  text-align: right;
+}
+
+.nav-header {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-list-item {
+  margin-block: 2em;
+}
+
+.nav-list-item > a {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.nav[data-visible="true"] {
+  transform: translateX(0%);
 }
 
 .hero-section {
@@ -122,8 +156,7 @@ img {
 }
 
 .hero-section > .hero-content {
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.9);
   padding: 1.5em;
   border-radius: var(--border-radius-normal);
   margin-inline: 1em;
@@ -194,6 +227,7 @@ img {
   color: white;
   text-align: center;
   padding-block: 1em;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
 }
 
 .footer > * {
@@ -269,5 +303,28 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 1400px;
     margin: 0 auto;
+  }
+}
+
+@supports (backdrop-filter: blur(1rem)) {
+  .header {
+    background: hsl(0 0% 100% / 0.4);
+  }
+
+  .mobile-toggle {
+    color: black;
+  }
+
+  .nav {
+    background: hsl(0 0% 100% / 0.4);
+    backdrop-filter: blur(1rem);
+  }
+
+  .nav-header {
+    color: black;
+  }
+
+  .nav-list-item > a {
+    color: black;
   }
 }
