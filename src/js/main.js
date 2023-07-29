@@ -98,3 +98,6 @@ projects.forEach((project) => {
 
   projectContainerElement.append(projectTechnologiesElement);
 });
+
+const yearElement = document.getElementById("year");
+yearElement.innerHTML = new Date().getFullYear();
