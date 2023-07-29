@@ -96,6 +96,14 @@ img {
   color: white;
 }
 
+.badge {
+  font-size: var(--font-size-200);
+  width: fit-content;
+  padding: 0.5em;
+  border-radius: var(--border-radius-normal);
+  box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+}
+
 main {
   height: 100vh;
 }
@@ -171,16 +179,21 @@ main {
 }
 
 .project-container > .project-category {
-  font-size: var(--font-size-200);
-  background: #ec4f54;
-  width: fit-content;
-  padding: 0.5em;
-  border-radius: var(--border-radius-normal);
-  box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+  background: #a2d172;
 }
 
 .project-container > .project-description {
   color: #6e6e6e;
+}
+
+.project-container > .project-technologies {
+  display: flex;
+  gap: 0.4em;
+}
+
+.project-container > .project-technologies > .project-technology {
+  background: #6e6e6e;
+  color: white;
 }
 
 @media screen and (min-width: 576px) {

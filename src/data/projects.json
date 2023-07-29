@@ -4,34 +4,39 @@
     "projectImage": "https://via.placeholder.com/800x600",
     "projectTitle": "Test Title",
     "projectCategory": "Webdev",
-    "projectDescription": "This is a test description 1 fetched from json"
+    "projectDescription": "This is a test description 1 fetched from json",
+    "projectTechnologies": ["Tech1", "Tech2"]
   },
   {
     "id": 1,
     "projectImage": "https://via.placeholder.com/800x600",
     "projectTitle": "Test Title",
     "projectCategory": "Gamedev",
-    "projectDescription": "This is a test description 2 fetched from json"
+    "projectDescription": "This is a test description 2 fetched from json",
+    "projectTechnologies": ["Tech1", "Tech2"]
   },
   {
     "id": 2,
     "projectImage": "https://via.placeholder.com/800x600",
     "projectTitle": "Test Title",
     "projectCategory": "fhgf",
-    "projectDescription": "This is a test description 3 fetched from json"
+    "projectDescription": "This is a test description 3 fetched from json",
+    "projectTechnologies": ["Tech1", "Tech2"]
   },
   {
     "id": 3,
     "projectImage": "https://via.placeholder.com/800x600",
     "projectTitle": "Test Title",
     "projectCategory": "frsae",
-    "projectDescription": "This is a test description 4 fetched from json"
+    "projectDescription": "This is a test description 4 fetched from json",
+    "projectTechnologies": ["Tech1", "Tech2"]
   },
   {
     "id": 4,
     "projectImage": "https://via.placeholder.com/800x600",
     "projectTitle": "Test Title",
     "projectCategory": "test",
-    "projectDescription": "This is a test description 5 fetched from json"
+    "projectDescription": "This is a test description 5 fetched from json",
+    "projectTechnologies": ["Tech1", "Tech2"]
   }
 ]

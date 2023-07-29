@@ -76,6 +76,7 @@ projects.forEach((project) => {
 
   const projectCategoryElement = document.createElement("p");
   projectCategoryElement.className = "project-category";
+  projectCategoryElement.classList.add("badge");
   projectCategoryElement.innerHTML = project.projectCategory;
   projectContainerElement.append(projectCategoryElement);
 
@@ -83,4 +84,17 @@ projects.forEach((project) => {
   projectDescriptionElement.className = "project-description";
   projectDescriptionElement.innerHTML = project.projectDescription;
   projectContainerElement.append(projectDescriptionElement);
+
+  const projectTechnologiesElement = document.createElement("div");
+  projectTechnologiesElement.className = "project-technologies";
+
+  project.projectTechnologies.forEach((technology) => {
+    const projectTechnologyElement = document.createElement("p");
+    projectTechnologyElement.className = "project-technology";
+    projectTechnologyElement.classList.add("badge");
+    projectTechnologyElement.innerHTML = technology;
+    projectTechnologiesElement.append(projectTechnologyElement);
+  });
+
+  projectContainerElement.append(projectTechnologiesElement);
 });
