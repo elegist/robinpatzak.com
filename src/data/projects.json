@@ -48,5 +48,14 @@
     "projectDescription": "Developed as a challenge in only 31 days. A 3D Jump and Run consisting of one playable level where you have to jump, dash and wall-run to the goal, while trying to collect all the feathers on your way.",
     "projectTechnologies": ["Godot", "GDScript", "Blender"],
     "link": "https://the-elegist.itch.io/sky-jumper"
+  },
+  {
+    "id": 4,
+    "projectImage": "../../assets/img/project-color-trigger.png",
+    "projectTitle": "Color Trigger",
+    "projectCategory": "Game Development",
+    "projectDescription": "Developed in 48 hours in a team of two, we came up with an experimental 2D puzzle platformer with the theme of colors.",
+    "projectTechnologies": ["Unity", "Affinity Photo"],
+    "link": "https://the-elegist.itch.io/color-trigger"
   }
 ]
